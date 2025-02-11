@@ -1,6 +1,4 @@
 <a id="readme-top"></a>
-
-[![Unlicense License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
@@ -9,7 +7,6 @@
   <a href="https://github.com/silvasmvs/cuidar-plus">
     <img src="assets/logo.png" alt="Logo" width="80" height="80">
   </a>
-
   <h2 align="center">Cuidar+ Monorepo</h2>
 </div>
 
@@ -20,10 +17,9 @@
     <li>
       <a href="#sobre-o-projeto">Sobre o projeto</a>
       <ul>
-        <li><a href="#tecnologias">Tecnologias</a></li>
-      </ul>
-      <ul>
+        <li><a href="#design-do-figma">Design do Figma</a></li>
         <li><a href="#anatomia-de-um-microfrontend">Anatomia de um microfrontend</a></li>
+        <li><a href="#tecnologias">Tecnologias</a></li>
       </ul>
     </li>
     <li>
@@ -57,6 +53,11 @@ Foi criado um monorepo que contém as seguintes partes:
 - Terá um microfrontend para a página de consultas `apps/consultations`, onde terá o módulo de consultas.
 - Terá um microfrontend para a página de conteúdos `apps/contents`, onde terá o módulo de conteúdos.
 
+### Design do Figma
+
+<img src="assets/design-1.png" alt="App Design 1"> <br /><br />
+<img src="assets/design-2.png" alt="App Design 2">
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Anatomia de um microfrontend
@@ -85,6 +86,7 @@ Foi criado um monorepo que contém as seguintes partes:
 * [![GraphQL][GraphQL]][GraphQL-url]
 * [![Turborepo][Turborepo]][Turborepo-url]
 * [![Figma][Figma]][Figma-url]
+* [![Capacitor.js][Capacitor.js]][Capacitor-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,6 +164,7 @@ Project Link: [https://github.com/silvasmvs/cuidar-plus](https://github.com/silv
 [Turborepo]: https://img.shields.io/badge/Turborepo-20232A?style=for-the-badge&logo=turborepo&logoColor=#EF4444
 [GraphQL]: https://img.shields.io/badge/GraphQL-20232A?style=for-the-badge&logo=graphql&logoColor=#E10098
 [Figma]: https://img.shields.io/badge/Figma-20232A?style=for-the-badge&logo=figma&logoColor=#F24E1E
+[Capacitor.js]: https://img.shields.io/badge/Capacitor.js-20232A?style=for-the-badge&logo=capacitor&logoColor=#119EFF
 
 [React-url]: https://reactjs.org/
 [Trpc-url]: https://trpc.io/
@@ -172,3 +175,4 @@ Project Link: [https://github.com/silvasmvs/cuidar-plus](https://github.com/silv
 [Turborepo-url]: https://turbo.build/
 [GraphQL-url]: https://graphql.org/
 [Figma-url]: https://www.figma.com/
+[Capacitor-url]: https://www.figma.com/
