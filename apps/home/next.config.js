@@ -5,6 +5,19 @@
 import "./src/env.js";
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+    async rewrites() {
+        return [
+            {
+            source: "/docs/:path*",
+            destination: "http://localhost:3001/:path*",
+            },
+            {
+            source: "/web/:path*",
+            destination: "http://localhost:3002/:path*",
+            },
+        ];
+    },
+};
 
 export default config;
